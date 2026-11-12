@@ -2,7 +2,7 @@
 
 Slides 15 to 29. You don't have to build everything yourself. Other teams have already done the hard parts, and most of them work on testnet, so you can use them in your hack.
 
-These are the 14 projects from the slides, with three things you could build with each. For everything else, see [stellar.org/ecosystem](https://stellar.org/ecosystem).
+These are the 13 projects from the slides, with three things you could build with each. For everything else, see [stellar.org/ecosystem](https://stellar.org/ecosystem).
 
 ## DeFi
 
@@ -109,16 +109,6 @@ Stablecoin escrow as a service. [trustlesswork.com](https://trustlesswork.com) �
 | Freelance gigs paid per milestone | Multi-release escrow: approve, then release |
 | Hold USDC until the order arrives | Single-release escrow: fund, then release |
 | Grants with dispute resolution | Dispute and resolve with a resolver role |
-
-### Useroutr
-
-Any-asset checkout on Stellar. [useroutr.com](https://useroutr.com) · [GitHub](https://github.com/useroutr) · Start with `npm install @useroutr/sdk`
-
-| You could build | How |
-|---|---|
-| Sell AI credits payable in any token | Funding intents and a credited webhook |
-| A drop-in checkout for your store | The @useroutr/checkout-react component |
-| Game top-ups settled in USDC | Hosted checkout and the balances API |
 
 ### Vellar
 

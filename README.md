@@ -16,7 +16,7 @@ You don't need to know Rust, and you don't need to be a developer to join in.
 | [04 · Store a counter](04-counter/) | 12 | A contract that remembers a number on chain |
 | [05 · The rest of your dApp](05-dapp/) | 13 | A TypeScript client, a wallet and a web page |
 | [06 · Build faster with AI](06-ai-tools/) | 14 | Give your coding agent the real Stellar docs |
-| [07 · Already built on Stellar](07-ecosystem/) | 15–29 | 14 projects you can build on in your hack |
+| [07 · Already built on Stellar](07-ecosystem/) | 15–29 | 13 projects you can build on in your hack |
 | [08 · Get funded](08-funding/) | 30–32 | SCF, Instawards and more ways to earn |
 | [09 · Hack guide](09-hack/) | 34–36 | Rules, ideas, judging and how to submit |
 
