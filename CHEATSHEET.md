@@ -1,5 +1,7 @@
 # Cheat sheet
 
+The Prize Pot and Hello Uyo commands here assume you ran `stellar network use testnet` and `stellar keys use alice` first, as the [extras](extras/) do. The workshop sections pass `--network testnet --source-account alice` instead.
+
 ## Commands
 
 | I want to | Command |
@@ -39,7 +41,7 @@ Everything after the `--` in `invoke` is the function you're calling and its arg
 
 ## Common problems
 
-**`stellar: command not found`**: restart your terminal. If that doesn't help, repeat the CLI step in [SETUP.md](SETUP.md).
+**`stellar: command not found`**: restart your terminal. If that doesn't help, repeat the CLI step in [01 · Setup](01-setup/#3-install-the-stellar-cli).
 
 **`can't find crate for core` or a message about `wasm32v1-none`**: run `rustup target add wasm32v1-none`.
 

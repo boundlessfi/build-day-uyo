@@ -1,4 +1,6 @@
-# Hack guide
+# 09 · Hack guide
+
+Slides 35 to 37.
 
 Build something useful on Stellar. It has to work on testnet by 4:30 PM.
 
@@ -18,7 +20,7 @@ Three hours is short. One complete flow that works beats a big idea that doesn't
 - Build it today. You can start from any code in this repo.
 - AI tools are welcome, but you must be able to explain your code.
 - It has to run on testnet.
-- Submit by 4:30 PM at [submission link] with your GitHub link, a contract ID or transaction link, and a short description.
+- Submit by 4:30 PM on [Boundless](https://www.boundlessfi.xyz) with your GitHub link, a contract ID or transaction link, and a short description.
 
 ## How we'll judge
 
@@ -43,19 +45,19 @@ Three hours is short. One complete flow that works beats a big idea that doesn't
 
 | Idea | Start from |
 |---|---|
-| A savings group that collects from members and pays each one in turn | Prize Pot, plus a list of members |
-| Pay on delivery: the buyer locks the money until the goods arrive | Prize Pot, or the [Trustless Work](ECOSYSTEM.md) API |
+| A savings group that collects from members and pays each one in turn | [Prize Pot](../extras/4-prize-pot.md), plus a list of members |
+| Pay on delivery: the buyer locks the money until the goods arrive | Prize Pot, or the [Trustless Work](../07-ecosystem/) API |
 | Milestone payments for freelancers | Prize Pot, paid in parts |
 | Splitting a hostel bill or a group payment | Prize Pot, with several winners |
-| A tip jar for creators | The wall, plus a payment |
+| A tip jar for creators | [The wall](../extras/1-sign-the-wall.md), plus a payment |
 | Event tickets you can check at the door | The wall, with one entry per address |
 | A guest book or shout-out wall for your community | The wall and `web/wall.html` |
 
 ## Pick a path that fits your team
 
-**Contract and web page.** Copy a contract, change it, and use `web/starter.html` as your front end.
+**Contract and web page.** Copy a contract, change it, and use [`web/starter.html`](../web/starter.html) as your front end.
 
-**Web only, no Rust.** Use a contract that's already live, or call a service like [Trustless Work](ECOSYSTEM.md) or [Soroswap](ECOSYSTEM.md) from JavaScript.
+**Web only, no Rust.** Use a contract that's already live, or call a service like [Trustless Work](../07-ecosystem/) or [Soroswap](../07-ecosystem/) from JavaScript.
 
 **Not a coder?** Your team needs you. Talk to real users, design the screens, write the pitch and lead the demo. A clear demo can beat stronger code.
 
@@ -77,7 +79,7 @@ stellar contract deploy --wasm target/wasm32v1-none/release/my_idea.wasm --alias
 
 ## Using AI
 
-AI tools know old Stellar code, so give them the current docs. [Building with AI](https://developers.stellar.org/docs/build/building-with-ai) shows how to add Stellar Skills or the Stellar Docs server to your tool. You can also paste in [developers.stellar.org/llms.txt](https://developers.stellar.org/llms.txt).
+AI tools know old Stellar code, so give them the current docs. [06 · Build faster with AI](../06-ai-tools/) has the commands, and [Building with AI](https://developers.stellar.org/docs/build/building-with-ai) shows how to add Stellar Skills or the Stellar Docs server to your tool. You can also paste in [developers.stellar.org/llms.txt](https://developers.stellar.org/llms.txt).
 
 ## Your demo
 
@@ -88,3 +90,7 @@ You have three minutes, plus one for questions:
 3. Say what you'd do next.
 
 Have a screen recording ready in case the wifi lets you down.
+
+---
+
+Previous: [08 · Get funded](../08-funding/) · Back to [the start](../)

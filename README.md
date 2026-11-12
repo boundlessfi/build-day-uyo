@@ -2,25 +2,28 @@
 
 12 November 2026 at Teckcocoon, Uyo, with Teckcocoon and Stellar Nigeria.
 
-Everything from the day is in this repo, so you can copy instead of typing. Every code box on GitHub has a copy button at its top right.
+Every command and every piece of code from the slides is here, so you can copy instead of typing. Each section has its own folder, in the same order as the talk, and each one has a QR code on its slide. Every code box on GitHub has a copy button at its top right.
 
 You don't need to know Rust, and you don't need to be a developer to join in.
 
-## Follow along
+## Follow the slides
 
-| Step | What you'll do | What you need |
+| Section | Slides | What you'll do |
 |---|---|---|
-| [1. Sign the wall](steps/1-sign-the-wall.md) | Put your name on a blockchain | Your phone |
-| [2. Send a payment](steps/2-send-a-payment.md) | Send test money to your neighbour | A browser |
-| [3. Hello Uyo](steps/3-hello-uyo.md) | Put your first contract on the network | [Setup](SETUP.md) |
-| [4. Prize Pot](steps/4-prize-pot.md) | Lock a prize in a contract, then try to rob it | [Setup](SETUP.md) |
-| [5. Web page](steps/5-web-page.md) | Connect a contract to a web page | A browser |
+| [01 · Setup](01-setup/) | 7–8 | Install Rust, the Wasm target and the Stellar CLI |
+| [02 · Testnet account](02-account/) | 9 | Make a free test account called alice |
+| [03 · Your first contract](03-hello-world/) | 10–12 | Init, build, deploy and call a hello contract |
+| [04 · Store a counter](04-counter/) | 13 | A contract that remembers a number on chain |
+| [05 · The rest of your dApp](05-dapp/) | 14 | A TypeScript client, a wallet and a web page |
+| [06 · Build faster with AI](06-ai-tools/) | 15 | Give your coding agent the real Stellar docs |
+| [07 · Already built on Stellar](07-ecosystem/) | 16–30 | 14 projects you can build on in your hack |
+| [08 · Get funded](08-funding/) | 31–33 | SCF, Instawards and more ways to earn |
+| [09 · Hack guide](09-hack/) | 35–37 | Rules, ideas, judging and how to submit |
 
-Then it's your turn:
+Also here:
 
-- [Hack guide](HACK.md): rules, ideas and how to submit
-- [Projects and opportunities](ECOSYSTEM.md): what you can build on, and how people get paid on Stellar
 - [Cheat sheet](CHEATSHEET.md): every command, and fixes for common errors
+- [Extras](extras/): sign the wall, send a payment, and the Prize Pot
 
 ## Get the code
 
@@ -30,7 +33,7 @@ The easiest way has nothing to install. It needs a free GitHub account:
 
 It takes a few minutes to start, and it runs in your browser, so it's a good choice for an older laptop.
 
-If you've done the [setup](SETUP.md) on your own laptop:
+If you've done the [setup](01-setup/) on your own laptop:
 
 ```bash
 git clone https://github.com/boundlessfi/build-day-uyo.git
@@ -45,6 +48,7 @@ No Git? Click the green **Code** button at the top of this page, then **Download
 ## How the day works
 
 - Copy the commands from here. Nobody needs to type long lines from the screen.
+- Scanned a QR code on your phone? Open the same section on your laptop to copy from it.
 - Put your green note on your laptop when you finish a step, and your red note up when you're stuck. A mentor will come to you.
 - If your neighbour is stuck, help them. It's the fastest way to learn this.
 - If your laptop won't cooperate, pair with someone and keep going. We'll fix it at the break.
@@ -53,19 +57,21 @@ No Git? Click the green **Code** button at the top of this page, then **Download
 
 Finished early? Try these. Tell a mentor when you've done one.
 
-1. Be the first person on the wall.
+1. Be the first person on [the wall](extras/1-sign-the-wall.md).
 2. Find your wall signature on the [explorer](https://stellar.expert/explorer/testnet).
 3. Pay three different people in the room.
-4. Change the greeting in Hello Uyo to your own words and deploy it.
-5. Sign the wall from your terminal.
-6. Add a `refund` function to the Prize Pot.
+4. Change the greeting in your hello contract to your own words and deploy it.
+5. Add a `get_current_value` function to the counter.
+6. Add a `refund` function to the [Prize Pot](extras/4-prize-pot.md).
 7. Split the prize between two winners.
 
 ## What's in this repo
 
 | Folder | What it holds |
 |---|---|
-| `contracts/hello-uyo` | Your first contract |
+| `01-setup` to `09-hack` | One guide per section of the talk |
+| `extras` | Bonus activities that use the contracts below |
+| `contracts/hello-uyo` | A ready-made hello contract |
 | `contracts/wall` | The contract behind the wall on the big screen |
 | `contracts/prize-pot` | A contract that holds a prize and pays a winner |
 | `web/wall.html` | The wall page. Add `?screen` to the address for the projector view |
