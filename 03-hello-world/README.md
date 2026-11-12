@@ -1,6 +1,6 @@
 # 03 · Your first contract
 
-Slides 10 to 12. Four commands take you from an empty folder to a live contract: init, build, deploy, invoke.
+Slides 9 to 11. Four commands take you from an empty folder to a live contract: init, build, deploy, invoke.
 
 You need [setup](../01-setup/) done and an [alice account](../02-account/).
 

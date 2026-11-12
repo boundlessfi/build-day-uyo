@@ -1,6 +1,6 @@
 # 06 · Build faster with AI
 
-Slide 15. AI tools know old Stellar code. Stellar Raven gives your coding agent the current docs and live ecosystem data.
+Slide 14. AI tools know old Stellar code. Stellar Raven gives your coding agent the current docs and live ecosystem data.
 
 Raven has two tools:
 

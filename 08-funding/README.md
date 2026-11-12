@@ -1,6 +1,6 @@
 # 08 · Get funded
 
-Slides 31 to 33. From today's prize to a funded company.
+Slides 30 to 32. From today's prize to a funded company.
 
 ## The path
 

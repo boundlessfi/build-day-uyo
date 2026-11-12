@@ -1,6 +1,6 @@
 # 09 · Hack guide
 
-Slides 35 to 37.
+Slides 34 to 36.
 
 Build something useful on Stellar. It has to work on testnet by 4:30 PM.
 

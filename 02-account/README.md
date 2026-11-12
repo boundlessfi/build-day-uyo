@@ -1,6 +1,6 @@
 # 02 · Make a testnet account
 
-Slide 9. Testnet money is free and fake, so this is the place to break things.
+Slide 8. Testnet money is free and fake, so this is the place to break things.
 
 ## Create an account
 

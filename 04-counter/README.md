@@ -1,6 +1,6 @@
 # 04 · Level up: store a counter
 
-Slide 13. A contract that remembers a number on chain. Call it three times and it returns 1, then 2, then 3.
+Slide 12. A contract that remembers a number on chain. Call it three times and it returns 1, then 2, then 3.
 
 This follows [Storing data](https://developers.stellar.org/docs/build/smart-contracts/getting-started/storing-data) in the Stellar docs. Do it inside the `hello-world` project from [03](../03-hello-world/).
 

@@ -1,6 +1,6 @@
 # 05 · Around the contract: the rest of your dApp
 
-Slide 14. A contract alone isn't a product. Here is what goes around it.
+Slide 13. A contract alone isn't a product. Here is what goes around it.
 
 | Frontend | Backend |
 |---|---|

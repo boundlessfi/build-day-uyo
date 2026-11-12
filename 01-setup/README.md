@@ -1,6 +1,6 @@
 # 01 · Set up your machine
 
-Slides 7 and 8. Four steps, taken from the [official Stellar setup guide](https://developers.stellar.org/docs/build/smart-contracts/getting-started/setup). Every code box has a copy button at its top right.
+Slides 6 and 7. Four steps, taken from the [official Stellar setup guide](https://developers.stellar.org/docs/build/smart-contracts/getting-started/setup). Every code box has a copy button at its top right.
 
 Do this at home on good internet if you can. You need about 5 GB of free disk space.
 

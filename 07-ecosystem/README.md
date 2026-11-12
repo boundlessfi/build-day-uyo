@@ -1,6 +1,6 @@
 # 07 · Already built on Stellar
 
-Slides 16 to 30. You don't have to build everything yourself. Other teams have already done the hard parts, and most of them work on testnet, so you can use them in your hack.
+Slides 15 to 29. You don't have to build everything yourself. Other teams have already done the hard parts, and most of them work on testnet, so you can use them in your hack.
 
 These are the 14 projects from the slides, with three things you could build with each. For everything else, see [stellar.org/ecosystem](https://stellar.org/ecosystem).
 
